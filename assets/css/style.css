@@ -1,0 +1,61 @@
+.navbar-custom {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link {
+    color: #3B2F2F;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* hero section */
+/* .hero-section {
+    width: 100%;
+    background: url('assets/images/hero.png') no-repeat center center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffebd4;
+    font-family: 'Handlee', cursive;
+    font-size: 1rem;
+} */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.hero {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('assets/images/hero2.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 8rem 0;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    color: #3b2f2f;
+}
+.card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        max-height:200px;
+}
+/* services section */
+.card-img-top {
+    max-height:200px;
+}
